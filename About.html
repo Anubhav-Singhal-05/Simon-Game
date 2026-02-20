@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap" rel="stylesheet">
+
+        <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <!-- CSS STYLE SHEET -->
+        <link rel="stylesheet" href="index.css">
+
+        <title>About - Memory Game</title>
+    </head>
+
+    <body>
+        <h1>How to Play</h1>
+
+        <div class="about-container">
+
+            <!-- Color legend -->
+            <div class="color-dots">
+                <div class="dot" style="background-color: green;"></div>
+                <div class="dot" style="background-color: red;"></div>
+                <div class="dot" style="background-color: yellow;"></div>
+                <div class="dot" style="background-color: blue;"></div>
+            </div>
+
+            <!-- Rules card -->
+            <div class="about-card">
+                <h2>Rules</h2>
+
+                <div class="rule-item">
+                    <span class="rule-number">01</span>
+                    <span class="rule-text">Click <strong style="color: rgb(255,204,0);">Start Game</strong> to begin. A sequence of colors will flash on the screen.</span>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">02</span>
+                    <span class="rule-text">Watch carefully and memorize the exact order in which the colors blink.</span>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">03</span>
+                    <span class="rule-text">Once it's <strong style="color: rgb(255,204,0);">Your Turn!</strong>, click the colored buttons in the same order.</span>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">04</span>
+                    <span class="rule-text">If you get it right, you advance to the next level — with one more color added to the sequence!</span>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">05</span>
+                    <span class="rule-text">Click a wrong color and it's <strong style="color: red;">Game Over</strong>. The game resets and you can try again.</span>
+                </div>
+            </div>
+
+            <!-- Back button -->
+            <button onclick="showGame()" class="back-btn">← Back to Game</button>
+        </div>
+    </body>
+</html>
