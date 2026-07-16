@@ -19,4 +19,4 @@ This is a simple memory game built using HTML, CSS, and JavaScript. The game sho
 
 ## Demo
 
-Live demo: [https://anubhav-singhal-05.github.io/Simon-Game/](https://anubhav-singhal-05.github.io/Simon-Game/)
+Live demo: [https://anubhav-simon-game.vercel.app/](https://anubhav-simon-game.vercel.app/)
